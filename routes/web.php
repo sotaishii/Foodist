@@ -22,3 +22,7 @@ Route::resource("posts", "PostController");
 if (env("APP_ENV") ==="local") {
     URL::forceScheme("https");
 }
+
+Auth::routes(["verify" => true]);
+
+Route::get('/home', 'HomeController@index')->name('home');
