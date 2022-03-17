@@ -1,8 +1,8 @@
-@extends("layouts.layouts")
+@extends("layouts.layouts2")
 
 @section("title", "Foodist ～おいしさを求めて～")
 
-@section("content")
+@section("content2")
 
 @if (session("message"))
     {{ session("message") }}
@@ -53,3 +53,9 @@
 
 @endsection
 
+
+<div class="image-position">
+<a href="users/mypage">
+    <img src="image/サラリーマン.png" width="100" height="100">マイページ
+</a>
+</div>

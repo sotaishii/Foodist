@@ -13,7 +13,7 @@
         <div class="container pt-5 pb-5">
             @component("components.flash")
             @endcomponent
-            @yield("content")
+            @yield("content2")
         </div>
         
         @component("components.footer")

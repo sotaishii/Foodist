@@ -54,7 +54,15 @@
     letter-spacing: normal;
     color: #0fbe9f;
 }
-.text {
-      text-align:center;
-      padding:20px 0;
+
+.user-edit-label {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.image-position {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 100px;
 }
